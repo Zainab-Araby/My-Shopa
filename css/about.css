@@ -1,0 +1,272 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
+  ul {
+    list-style: none;
+  }
+  body {
+    font-family: "Cairo", sans-serif;
+    /* background-color: black; */
+  }
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  @media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
+  a {
+    text-decoration: none;
+  }
+  /* this is a media use it in any progect ok */
+
+/* start header */
+    .header {
+        background: #ffffff;
+        position: relative;
+        min-height: 80px;
+        box-shadow:0 1px 3px rgb(168, 166, 166);
+        height: 150px;
+    }
+    .header .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        transform: translateY(25px);
+        padding:  25px;
+    }
+    .name{
+        border: 1px black solid;
+        font-family: sans-serif;
+        font-size: 20px;
+    }
+    .header .container .main-logo {
+        color: rgb(144, 144, 144);
+        font-size: 25px;
+    }
+    .header .container .main-logo i {
+        margin: 0 7px;
+    }
+    .header .container .main-logo input{
+        border: none;
+        border-radius: 10px;
+        outline: none;
+        margin-left: 3px;
+    }
+    /* .header .container .main-logo input:hover{
+        margin-left: 2px;
+    } */
+    .header .container .main-logo i:hover{
+        margin-left: 2px;
+    }
+    .header .container .links {
+        /* and this way */
+        display: flex;
+        gap: 20px ;
+    }
+    .header .container .links:hover{
+        color: rgb(0, 0, 0);
+        margin-left: 3px;
+    }
+    .header .links {
+        color: #050505;
+        font-size: 17px;
+        margin-left: 3px;
+    }
+    .header .container .icons i {
+        margin-right: 15px;
+        transition: 0.4s;
+    }
+    .navbar .links{
+        display: flex;
+        justify-content: center;
+    background-color: rgb(255, 255, 255);
+    height: 65px;
+    box-shadow: 0 1px 3px rgb(203, 203, 203);
+    width: 100%;
+    align-items: center;
+       
+    }
+    .links a:hover{
+        color: rgb(0, 0, 0);
+        margin-left: 3px;
+    }
+    .link{
+        text-decoration: none;
+        color: #783f84;
+    }
+    .many-nav{
+        width: 100%;
+        height: 70px;
+        box-shadow:0 1px 3px rgb(192, 191, 191);
+        background-color: #e8e7e7;
+        padding: 30px;
+        
+    }
+    .a-sec1{
+        width: 100%;
+        height: 800px;
+       position: relative;
+       text-align: center;
+       padding-top: 150px;
+       box-shadow: 0 1px 3px rgb(203, 203, 203);
+    }
+    .i-sec1{
+        position: absolute;
+        left: 90px;
+    }
+    .p-sec1{
+        position: absolute;
+        left: 950px;
+        top: 300px;
+    }
+    .p-sec1 p{
+color: rgb(164, 166, 166);
+    }
+
+    .TEAM{
+      width: 100%;
+      height: 700px;
+      display: flex;
+      justify-content: space-between;
+     text-align: center;
+      padding: 170px;
+      left: -232px
+      
+      
+    }
+
+    .TEAM img{
+      border-radius: 190px;
+    }
+    .Team{
+      text-align: center;
+      padding: 90px;
+    }
+
+
+             /* sectio5 */
+
+  .sec5{
+    height: 700px;
+    position: relative;
+    width: 100%;
+    box-shadow: 0 1px 3px rgb(203, 203, 203);
+}
+
+.m{
+    position: absolute;
+    top: 120px;
+    left: 70px;
+}
+.mm{
+    position: absolute;
+    top: 50px;
+    right: 740px;
+}
+.mmm{
+position: absolute;
+bottom: 340px;
+right: 190px;
+
+
+}
+.mmm span{
+    font-size: 40px;
+    color: rebeccapurple;
+    position: absolute;
+
+top: -40px;
+    right: 25px;
+
+}
+.mmm p{
+    font-size: 15px;
+    color:  rgb(136, 132, 139);
+    line-height: 29px;
+}
+.shopno{
+    position: absolute;
+    bottom: 250px;
+    right: 370px;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 35px;
+}
+.shopno :hover{
+    transform: translate(3px, 3px);
+
+}
+.shopno button{
+    text-decoration: none;
+    color:white;
+    background-color: rebeccapurple;
+font-size: 11PX;
+padding: 17px;
+
+
+border: none;
+}
+
+   /* footer */
+   .footer{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 500px;
+    padding: 123px;
+    margin-top: 20px;
+   }
+   .footer h5{
+    color: rgb(108, 108, 108);
+   }
+   .footer i{
+    color: #783c83;
+   }
+   .footer .email{
+    padding: 10px;
+    margin: 10px;
+    outline: none;
+   }
+   .footer .submit{
+    background-color: #783c83;
+    padding: 10px;
+    position: relative;
+    left: -50px;
+    text-align: center;
+   }
+   .template{
+    position: relative;
+    top: -20px;
+    left: 490px;
+   }
+
+
+
+
+
+    
